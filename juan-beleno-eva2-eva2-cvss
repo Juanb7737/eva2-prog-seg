@@ -1,0 +1,89 @@
+# CVE - CVSS y Otros
+
+## Define vulnerabilidad, amenaza y riesgo en el contexto de la seguridad informática.
+
+**Vulnerabilidad**
+
+*En el campo de la seguridad informática se considera como vulnerabilidad a cualquier debilidad o fallo en un sistema de información que pone en riesgo la seguridad de los datos y, por tanto, la información. Esta debilidad o falla puede permitir que un agente atacante pueda comprometer la integridad, disponibilidad o confidencialidad de la información*
+
+**Amenaza**
+
+*Las amenazas se conocen como la o las acciones que aprovecha una vulnerabilidad (falla) para atentar con la seguridad de un sistema de información, y a su vez puede tener un efecto negativo en la organización dependiendo del tipo de ataque y amenaza, pasiva o activa. (Escrivá, Romero, Jorge, & Onrubia, 2013)*
+
+**Riesgo**
+
+*El riesgo, en términos concretos, es una medida de la probabilidad de que se materialice una amenaza o un incidente de seguridad (Escrivá, Romero, Jorge, & Onrubia, 2013) ,por tener una eventual vulnerabilidad en la aplicación, causando perdida de información y atenta totalmente la triada de seguridad.* 
+
+## ¿Qué es CVE y cuál es su propósito?
+
+*CVE “es un diccionario que proporciona definiciones para las vulnerabilidades y exposiciones de ciberseguridad divulgadas públicamente.*
+
+*El CVE tiene como propósito propiciar la distribución de datos en bases de datos de vulnerabilidades y herramientas de seguridad separadas y en gran medida facilita la búsqueda de información.*
+
+## Menciona tres ventajas del uso de CVE.
+
+*- Ayuda a tener una plataforma para reconocer vulnerabilidades conocidas*
+
+*- Puede ayudar a diferenciar las vulnerabilidades y referirse a ellas, con sus diferencias*
+
+*- Se encuentra en constante actualización de la base de datos de la lista, lo que posibilita ir además monitoreando cambios o actualizaciones*
+
+## ¿Qué es CVSS y para qué se utiliza? 
+
+*El Sistema Métrico CVSS (Common Vulnerability Scoring System) se trata de un sistema de puntaje que está especialmente diseñado para proveer una estimación del impacto derivado de vulnerabilidades identificadas, es decir, cuantifica la severidad que puede representar las vulnerabilidades para la organización y los datos e información que maneja por medio de esa plataforma.*
+
+*Se usa para realizar el cálculo del impacto que representa una vulnerabilidad, el CVSS utiliza una escalaque va de 0 a 10, siendo la más baja el 0 y el más alto el 10*
+
+## Describe los tres grupos métricos del CVSS.
+
+**Grupo Métrico Base**
+
+*Este grupo representan las características intrínsecas a la vulnerabilidad, que son constantes en el tiempo, o sea, no cambian. Este grupo incluyen las métricas de vector de acceso, complejidad de acceso y autenticación.*
+
+**Grupo Métrico Temporal**
+
+*Las métricas temporales representan las características de una vulnerabilidad que pueden cambiar en el tiempo, a diferencia del grupo de métricas base, pero que son constantes en el ambiente de un usuario.*
+
+**Grupo de Métrica de ambiente o entorno**
+
+*Las métricas de entorno corresponden al tercer grupo y representan las características de una vulnerabilidad, que es única y relevante para el entorno de un usuario en particular.*
+
+## Explica el concepto de "componentes con vulnerabilidades conocidas" (OWASP A9:2017). 
+
+*Los componentes como bibliotecas, frameworks y otros módulos se ejecutan con los mismos privilegios que la aplicación. Si se explota un componente vulnerable, el ataque puede provocar una pérdida de datos o tomar el control del servidor. Las aplicaciones y API que utilizan componentes con vulnerabilidades conocidas pueden debilitar las defensas de las aplicaciones y permitir diversos ataques e impactos.*
+
+## ¿Qué es la encriptación y cuál es su objetivo?
+
+*Encriptar o el proceso de encriptación, es un procedimiento mediante el cual, por medio de algoritmos, cualquier tipo de documento, bases de datos y/o archivos se vuelven completamente ilegibles, por lo que cualquier usuario que no disponga de las claves correctas no puede acceder a la información o datos que contengan.*
+
+*El objetivo de la encriptación es que el contenido del texto secreto solo sea accesible para aquel o aquellos usuarios que disponen de la clave para descifrarlo, y se puede aplicar a diferentes tipos de información electrónica como mensajes de texto, mensajes de voz, archivos de imagen o códigos de programación, entre otros tipos de archivos.*
+
+## ¿Qué significan las siglas SOAP, WS y XML?
+
+*- SOAP: (Simple Object Access Protocol), es un protocolo creado por Microsoft, IBM y otros, que actualmente es uno de los protocolos utilizados en los servicios Web. Este protocolo es bastante robusto, sirve para intercambiar información, además soporta elementos de validación de mensajes, seguridad, los cuales se pueden usar por medio de HTTP, SMTP, TCP y JMS, o sea, por internet, por correos electrónicos, protocolos entre clientes servidor, entre otros.*
+
+*- WS: (web service o web services), el significado de Servicios Web, lo cual se puede definir como una tecnología que se basa en un conjunto de protocolos y estándares por los cuales se intercambian datos entre aplicaciones.*
+
+*- XML: “proviene de eXtensible Markup Language (“Lenguaje de Marcas Extensible”). Se trata de un metalenguaje (un lenguaje que se utiliza para decir algo acerca de otro) extensible de etiquetas que fue desarrollado por el Word Wide Web Consortium (W3C), una sociedad mercantil internacional que elabora recomendaciones para la World Wide Web.”(Definición.de, 2020)*
+
+## ¿Qué es hardening y cómo se relaciona con la seguridad de sistemas?
+
+*El hardening (en inglés «endurecimiento») es una medida de seguridad que puede ser aplicada en los equipos de trabajo con la finalidad de reducir la superficie de vulnerabilidad en el sistema (puntos de acceso para un posible ataque informático), para lograr de esta manera evitar en gran medida los posibles ataques.*
+
+## Describe tres acciones comunes de hardening
+
+*Sistemas operativos actualizados*
+
+*Cerrar puertos que no se esten utilizando*
+
+*Bloquear la transferencia de archivos entre programas*
+
+## ¿Qué es un CAPTCHA y cuál es su función?
+
+*Un CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart), es un tipo de medida de seguridad conocido como autenticación pregunta-respuesta.*
+
+*Un CAPTCHA brinda protección ante el spam y del descifrado de contraseñas, completando una simple prueba o test que demuestre que es un ser humano y no un ordenador quien intenta acceder a una cuenta protegida con contraseña.*
+
+## ¿Qué se entiende por "autenticación robusta centralizada"?
+
+*La autenticación robusta y centralizada son aquellos certificados asociados a mecanismos de seguridad para controlar y gestionar el uso de la plataforma y están asentados en distintos niveles de protección, y se basa, principalmente, en algo que tiene el usuario, algo que sabe o algo inherente a la persona. A estos procedimientos de identificación se les conoce como factores de autenticación.* 
