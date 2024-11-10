@@ -1,1 +1,75 @@
-test
+# OWASP y programación segura
+
+## ¿Qué es OWASP y cuál es su principal objetivo?
+ 
+*Por sus siglas en inglés Open Web Application Security Project es una organizacion mundial sin fines de lucro y su principal objetivo es mejorar la seguridad del software.* 
+ 
+*Su mision es hacer que la seguridad del software sea visible, para que las personas y organizaciones puedan tomar decisiones informadas.*
+
+## ¿Qué es el OWASP Top 10 y por qué es importante para los desarrolladores? 
+
+**Es un proyecto en el que se encuentran los 10 riesgos conocidos más críticos para las aplicaciones web.**
+
+**Es importante para los desarrolladores porque les brinda:**
+
+*✓ Herramientas y estándares de seguridad en aplicaciones*
+
+*✓ Libros completos de revisiones de seguridad en Aplicaciones* 
+
+*✓ Desarrollo de código fuente seguro y revisiones de seguridad en código fuente* 
+
+*✓ Controles de seguridad estándar y bibliotecas* 
+
+*✓ Entre otras informaciones de interés para la programación segura.*
+
+## Describe brevemente dos de las vulnerabilidades del OWASP Top 10 2017
+
+**Inyección**
+
+*Las fallas de inyección, como SQL, NoSQL, OS o LDAP ocurren cuando se envían datos no confiables a un intérprete, como parte de un comando o consulta.*
+
+*Los datos dañinos del atacante pueden engañar al intérprete para que ejecute comandos involuntarios o acceda a los datos sin la debida autorización.*
+
+**Perdida de Autenticación**
+
+*Las funciones de la aplicación relacionadas a autenticación y gestión de sesiones son implementadas incorrectamente, permitiendo a los atacantes comprometer usuarios y contraseñas, token de sesiones, o explotar otras fallas de implementación para asumir la identidad de otros usuarios (temporal o permanentemente).*
+
+## ¿Qué es OWASP ASVS y cuáles son sus niveles de verificación?
+
+*ASVS (sus siglas en ingles Application Security Verification Standard), es un proyecto que se refiere al estándar de verificación de seguridad de aplicaciones de OWASP y proporciona una base para probar los controles técnicos de seguridad de las aplicaciones web, además proporciona a los desarrolladores y/o programadores una lista de requisitos para un desarrollo seguro.*
+
+**EL ASVS se divide en tres niveles los cuales son:**
+
+*✓ ASVS nivel 1 se encuentra dirigido a todo tipo de software o aplicación* 
+
+*✓ ASVS nivel 2 es para aplicaciones que contienen datos sensibles, que requieren protección.*  
+
+*✓ ASVS nivel 3 es para las aplicaciones más críticas, aplicaciones que realizan transacciones de alto valor, que contienen datos médicos confidenciales, o cualquier aplicación que requiera el más alto nivel de confianza.*
+
+## ¿Cuál es la diferencia entre los niveles 1 y 3 de OWASP ASVS?
+
+**El nivel 1 Oportunista Es el nivel más bajo y se emplea cuando se requiere escasa confianza en el uso correcto de los controles de seguridad.** 
+
+**El nivel 3 Avanzado Es el más alto nivel de verificación dentro de ASVS, por lo que genera un alto nivel de seguridad al obtenerlo.** 
+
+## ¿Qué es el modelado de amenazas y cuáles son sus beneficios?
+
+*El modelado de amenazas es un elemento central del ciclo de vida de desarrollo de seguridad de Microsoft (SDL). Es una técnica de ingeniería que puede utilizar para identificar amenazas, ataques, vulnerabilidades y contramedidas que podrían afectar su aplicación.*
+
+*El beneficio prodria ser que al utilizar el modelado de amenazas para dar forma al diseño de su aplicación, cumple los objetivos de seguridad de su empresa y reduce el riesgo.*
+
+## Nombra dos metodologías de modelado de amenazas.
+
+**STRIDE**
+
+**DREAD**
+
+## ¿Qué es el SDL y cómo ayuda a la seguridad del software?
+
+*Es un proceso de control de seguridad orientado al desarrollo de software.* 
+
+*Siendo una iniciativa corporativa y una directiva obligatoria desde el año 2004.* 
+
+*SDL ha desempeñado un papel muy importante en la integración de la seguridad y de la privacidad en el software y la cultura de Microsoft.*  
+
+*Con un enfoque tanto holístico como práctico, SDL tiene como objetivo reducir el número y la gravedad de las vulnerabilidades en el software.*
