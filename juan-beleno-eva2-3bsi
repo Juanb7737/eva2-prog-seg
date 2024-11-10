@@ -1,0 +1,33 @@
+# Las Tres Bases de la Seguridad Informática
+
+## ¿Cuáles son los tres pilares de la seguridad informática y qué significan?
+
+**Confidencialidad**
+
+*La confidencialidad es un pilar fundamental de la seguridad informática que se refiere a la protección de la información sensible, evitando que sea divulgada sin autorización.*
+
+**Integridad**
+
+*se puede definir como la garantía de exactitud y fiabilidad de la información.*
+
+*Asegurando la integridad de la información y los datos se consigue prevenir cualquier modificación no autorizada de esta.*
+
+**Disponibilidad**
+
+*garantiza que los datos y recursos estén accesibles y fiables para los usuarios autorizados cuando lo necesiten.* 
+
+## ¿Qué diferencia hay entre datos e información?
+
+*La principal diferencia entre datos e información es que los datos son crudos y no procesados, mientras que la información es el resultado de analizar, organizar y refinar los datos*
+
+## Describe una medida para garantizar la confidencialidad.
+
+*Monitorizar el tráfico de red, para descubrir posibles intrusiones*
+
+## ¿Por qué es importante la integridad de la información?
+
+*Mantener la integridad de los datos implica salvaguardar los datos de una organización contra pérdidas, fugas e influencias corruptoras.*
+
+## Menciona un ejemplo de cómo se puede ver afectada la disponibilidad de la información.
+
+*Un ataque DDoS puede dejar inutilizada cualquier pagina o programa impidiendo el acceso de usuarios y clientes para su uso.*  
