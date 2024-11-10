@@ -1,0 +1,42 @@
+# PCI DSS
+
+## ¿Qué significa PCI DSS y cuál es su propósito principal?
+
+*Es una guía o documento con estandares de seguridad que ayuda a evitar los fraudes que afectan a las tarjetas de débito y crédito tanto a los datos de los titulares, como a los datos de autenticación.*
+
+*El objetivo de PCI DSS es hacer que los datos se gestionen con seguridad evitando el robo de esos datos y el fraude.* 
+
+## ¿A qué tipo de empresas afecta PCI DSS?
+
+*Empresas que procesan, almacenan y trasmiten datos de caracter financiero*
+
+*Compañias de tarjetas de débito y crédito como:*
+
+*- VISA*
+
+*- MASterCard*
+
+*- American Express*
+
+*-Discover Network*
+
+## Menciona tres ejemplos de datos que PCI DSS busca proteger.
+
+*Número de cuenta principal (PAN): Este es el número de 16 dígitos en la tarjeta que identifica la cuenta del titular de la tarjeta.*
+
+*Código de verificación de tarjeta (CVV/CVC): Este es el código de seguridad de 3 o 4 dígitos impreso en la parte trasera (o frontal) de la tarjeta, que ayuda a verificar que el usuario tiene la tarjeta física.*
+
+*Fecha de vencimiento de la tarjeta: La fecha de expiración que acompaña al PAN es también información sensible, especialmente cuando se usa junto con el número de cuenta y el CVV para autorizaciones de pago.*
+
+## ¿Por qué es importante la certificación PCI DSS para las empresas?
+
+*Porque poseer esta certificacion es signo de confianza para los clientes y ratifica el correcto funcionamiento de los procesos financieros* 
+
+## Describe brevemente tres de los doce requisitos de PCI DSS.
+
+
+*Disponer de un FIREWALL, para porteger el entorno donde se encuentran los datos de las tarjetas*
+
+*Cambio de contraseñas periodicamente*
+
+*Cifrar comunicacion en redes publicas o privadas*
